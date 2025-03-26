@@ -33,6 +33,8 @@ const Signup = () => {
         <AuthForm 
           isLogin={false} 
           onSubmit={handleSignup}
+          nameRequired
+          emailRequired
         />
       </div>
     </div>
